@@ -2,6 +2,8 @@
 
 A powerful Telegram bot designed to update **Garena Free Fire** profile bios instantly. Built with **Telebot (pyTelegramBotAPI)** and **Flask**, supporting both **Webhook** and **Polling** modes for high performance and reliability.
 
+⚠️ If there's an error or it fails when deploying on Render, set it as an environment variable: PYTHON_VERSION = 3.14.3
+
 ---
 
 ## 🌟 Features
