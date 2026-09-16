@@ -98,7 +98,7 @@ def call_bio_api(token: str, bio: str) -> dict:
 def handle_start(message):
     name = message.from_user.first_name or "Player"
     text = (
-        f"👋 Welcome, {name}!\n\n"
+        f"👋 Bienvenido📢, {name}!\n\n"
         "I'm a Free Fire Bio Updater Bot.\n"
         "Use me to update your Free Fire profile bio instantly.\n\n"
         "📌 Commands:\n"
@@ -199,7 +199,7 @@ def handle_bio(message):
                 f"📱 Platform: `{platform}`\n"
                 f"🌍 Region: `{region}`\n\n"
                 f"📝 New Bio: {new_bio}\n\n"
-                "👑 Credit: @itzpaglu"
+                "👑 Creador: @Axel XIT"
             )
             bot.send_message(message.chat.id, response_text, parse_mode='Markdown')
 
